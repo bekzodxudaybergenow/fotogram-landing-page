@@ -6,8 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: "Roboto", serif;
-    // font-family: "Space Grotesk", serif;
+    font-family: var(--main-family);
     font-size: 15px;
     
 }

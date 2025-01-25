@@ -307,6 +307,17 @@ template {
   display: none;
 }
 
+:root {
+  /* font-family */
+  --main-family: "Roboto", serif;
+  --second-family: "Space Grotesk", serif;
+  /* colors */
+  --global-white: #FFFFFF;
+  --global-black: #000000;
+  --global-gray: #54595F;
+  --global-primary: #6C5CCC;
+}
+
 *,
 *::after,
 *::before {
@@ -316,7 +327,7 @@ template {
 }
 
 body {
-  font-family: "Roboto", serif;
+  font-family: var(--main-family);
   font-size: 15px;
 }
 
