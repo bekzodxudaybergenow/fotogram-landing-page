@@ -1,0 +1,31 @@
+.header {
+    background-color: var(--global-black);
+    padding: 20px 0;
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    width: 104px;
+    height: 25px;
+    transition: all .3s ease;
+
+
+    & rect,
+    & path {
+        transition: fill .3s ease;
+    }
+
+    &:hover rect,
+    &:hover path{
+        fill: var(--global-primary);
+    }
+    &:active rect,
+    &:active path{
+        fill: var(--global-primary-active);
+    }
+}
+.header-menu {
+}

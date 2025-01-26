@@ -337,3 +337,29 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.header {
+  background-color: var(--global-black);
+  padding: 20px 0;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 104px;
+  height: 25px;
+  transition: all 0.3s ease;
+}
+.header-logo rect, .header-logo path {
+  transition: fill 0.3s ease;
+}
+.header-logo:hover rect, .header-logo:hover path {
+  fill: var(--global-primary);
+}
+.header-logo:active rect, .header-logo:active path {
+  fill: var(--global-primary-active);
+}
