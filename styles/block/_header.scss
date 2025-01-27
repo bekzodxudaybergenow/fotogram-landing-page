@@ -28,4 +28,28 @@
     }
 }
 .header-menu {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    color: var(--global-white);
+    cursor: pointer;
+    transition: color .3s ease;
+}
+.header-menu:hover {
+    color: var(--global-primary);
+}
+.header-menu rect {
+    transition: fill .3s ease;
+}
+.header-menu:hover rect {
+    fill: var(--global-primary);
+}
+.header-menu:active {
+    color: var(--global-primary-active);
+}
+.header-menu:active rect {
+    fill: var(--global-primary-active);
 }
