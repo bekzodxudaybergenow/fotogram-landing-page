@@ -1,6 +1,10 @@
 .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
     background-color: var(--global-black);
     padding: 20px 0;
+    transition: all .6s ease;
 }
 .header-row {
     display: flex;
@@ -26,6 +30,9 @@
     &:active path{
         fill: var(--global-primary-active);
     }
+}
+.headScroll {
+    transform: translateY(-65px);
 }
 .header-menu {
     display: flex;
