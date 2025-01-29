@@ -60,3 +60,24 @@
 .header-menu:active rect {
     fill: var(--global-primary-active);
 }
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    background-color: var(--global-black);
+}
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 28px;
+}
+.sidebar-nav--link {
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    color: var(--global-white);
+}
