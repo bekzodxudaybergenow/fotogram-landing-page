@@ -2,15 +2,22 @@ let header = document.querySelector('.header');
 let sidebar = document.querySelector('.sidebar');
 let headerMenu = document.querySelector('.header-menu');
 let sidebarClose = document.querySelector('.sidebar-close');
+let sidebarShadow = document.querySelector('.sidebar-shadow');
 
 
 
 
 headerMenu.addEventListener('click', () => {
     sidebar.classList.add('active');
+    sidebarShadow.classList.add('shadow-active');
 })
 sidebarClose.addEventListener('click', () => {
     sidebar.classList.remove('active');
+    sidebarShadow.classList.remove('shadow-active');
+})
+sidebarShadow.addEventListener('click', () => {
+    sidebar.classList.remove('active');
+    sidebarShadow.classList.remove('shadow-active');
 })
 
 
