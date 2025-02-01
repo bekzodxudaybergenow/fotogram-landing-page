@@ -21,17 +21,17 @@ sidebarShadow.addEventListener('click', () => {
 })
 
 
-// let scrollManual = 0;
-// window.addEventListener('scroll', () => {
+let scrollManual = 0;
+window.addEventListener('scroll', () => {
 
-//     if(scrollY > scrollManual) {
-//         header.classList.add('headScroll');
-//     }
-//     else {
-//         header.classList.remove('headScroll');
-//     }
+    if(scrollY > scrollManual) {
+        header.classList.add('headScroll');
+    }
+    else {
+        header.classList.remove('headScroll');
+    }
     
-//     scrollManual = scrollY;
-// })
+    scrollManual = scrollY;
+})
 
 
