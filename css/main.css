@@ -472,3 +472,16 @@ body {
 .sidebar-shadow.shadow-active {
   transform: translateX(0);
 }
+
+.hero {
+  padding: 160px 0 100px;
+}
+
+.swiper {
+  height: 100px;
+  background-color: darkseagreen;
+}
+
+.swiper-slide {
+  background-color: darkslategray;
+}
