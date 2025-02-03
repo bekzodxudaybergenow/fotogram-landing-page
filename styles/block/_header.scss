@@ -5,6 +5,7 @@
     background-color: var(--global-black);
     padding: 20px 0;
     transition: all .6s ease;
+    z-index: 999;
 }
 .header-row {
     display: flex;
