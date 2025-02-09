@@ -14,18 +14,25 @@
 }
 .swiper-slide {
     background-color: darkslategray;
-    max-height: 360px;
 }
 .swiper-lide--image {
     display: block;
+    max-height: 360px;
     width: 100%;
     object-fit: cover;
+    object-position: center;
 }
 .swiper-button-next {
 }
 .swiper-button-prev {
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .swiper-lide--image {
+        max-height: 500px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .swiper-lide--image {
+        max-height: 600px;
     }
 }
