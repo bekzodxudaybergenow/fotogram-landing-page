@@ -484,6 +484,7 @@ body {
 }
 
 .swiper-slide {
+  position: relative;
   background-color: darkslategray;
 }
 
@@ -510,17 +511,25 @@ body {
 .hero-subtitle {
   display: flex;
   align-items: center;
-  font-size: 15px;
-  margin-bottom: 30px;
+  font-size: 14px;
+  margin-bottom: 50px;
+  column-gap: 10px;
 }
 .hero-subtitle img {
   display: block;
   margin-top: 4px;
+  margin-left: 5px;
 }
 
 .hero-title {
   font-size: 80px;
+  line-height: 90px;
 }
+.hero-title span {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--global-white);
+}
+
 @media screen and (min-width: 1024px) {
   .swiper-lide--image {
     max-height: 500px;
