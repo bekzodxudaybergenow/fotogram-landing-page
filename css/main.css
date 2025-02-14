@@ -476,7 +476,6 @@ body {
 
 .hero {
   padding: 65px 0 0;
-  background-color: darkslateblue;
 }
 
 .swiper {
@@ -485,7 +484,6 @@ body {
 
 .swiper-slide {
   position: relative;
-  background-color: darkslategray;
 }
 
 .swiper-lide--image {
@@ -497,11 +495,12 @@ body {
 }
 
 .swiper-slide-content {
+  display: none;
   position: absolute;
   top: 50%;
-  left: 20%;
+  margin: 0 auto;
+  background-color: darksalmon;
   color: var(--global-white);
-  transform: translateY(-50%);
 }
 
 .swiper-slide-content h2 {
@@ -528,6 +527,36 @@ body {
 .hero-title span {
   color: transparent;
   -webkit-text-stroke: 1px var(--global-white);
+}
+
+.slide-btns {
+  display: block;
+  max-width: 1150px;
+  position: absolute;
+  height: 100px;
+  margin: 0 auto;
+  top: 50%;
+  left: 5px;
+  right: 5px;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+.swiper-button-next.arrow-btn,
+.swiper-button-prev.arrow-btn {
+  border: 1px solid;
+  padding: 0 20px;
+  border-radius: 8px;
+  color: var(--global-white);
+  transition: color 0.3s ease;
+}
+.swiper-button-next.arrow-btn::after,
+.swiper-button-prev.arrow-btn::after {
+  font-size: 20px;
+}
+.swiper-button-next.arrow-btn:hover,
+.swiper-button-prev.arrow-btn:hover {
+  color: var(--global-gray);
 }
 
 @media screen and (min-width: 1024px) {
