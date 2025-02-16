@@ -339,6 +339,24 @@ body {
   margin: 0 auto;
 }
 
+.subtitle {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.subtitle img {
+  margin-top: -2px;
+}
+.subtitle span {
+  font-family: var(--second-family);
+  color: var(--global-primary);
+}
+
+.title {
+  font-weight: 700;
+  font-family: var(--second-family);
+}
+
 .header {
   position: fixed;
   width: 100%;
