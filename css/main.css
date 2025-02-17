@@ -357,6 +357,14 @@ body {
   font-family: var(--second-family);
 }
 
+.desc {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--global-gray);
+  line-height: 22px;
+  letter-spacing: 0.6px;
+}
+
 .header {
   position: fixed;
   width: 100%;
