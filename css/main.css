@@ -352,6 +352,17 @@ body {
   color: var(--global-primary);
 }
 
+.subtitle.link span {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.subtitle.link span:hover {
+  opacity: 0.8;
+}
+.subtitle.link span:active {
+  opacity: 1;
+}
+
 .title {
   font-weight: 700;
   font-family: var(--second-family);

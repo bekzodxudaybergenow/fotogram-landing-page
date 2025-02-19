@@ -28,6 +28,18 @@ body {
         color: var(--global-primary);
     }
 }
+.subtitle.link {
+    & span {
+        cursor: pointer;
+        transition: opacity .3s ease;
+    }
+    & span:hover {
+        opacity: .8;
+    }
+    & span:active {
+        opacity: 1;
+    }
+}
 .title {
     font-weight: 700;
     font-family: var(--second-family);
