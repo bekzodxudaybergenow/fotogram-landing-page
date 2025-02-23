@@ -4,10 +4,6 @@
 .mission-content {
     margin-bottom: 40px;
 }
-.mission-content--inner-left {
-}
-.mission-content--inner-right{
-}
 .mission-subtitle {
     font-size: 14px;
 }
@@ -54,4 +50,46 @@
     font-size: 15px;
     line-height: 19px;
     color: var(--global-gray);
+}
+@media screen and (min-width: 1024px) {
+    .mission {
+        margin: 100px 0;
+    }
+    .mission-content {
+        display: flex;
+        column-gap: 60px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .mission-content--inner-left {
+        max-width: 450px;
+    }
+    .mission-subtitle {
+        margin-bottom: 20px;
+    }
+    .mission-title {
+        font-size: 28px;
+    }
+    .mission-content--inner-right {
+        max-width: 380px;
+    }
+    .mission-content--desc {
+        margin-bottom: 20px;
+        line-height: 22px;
+    }
+    .mission-content--morebtn {
+        & img {
+            order: 0;
+        }
+    }
+    .mission-list {
+        justify-content: center;
+    }
+    .mission-list--item {
+        max-width: 310px;
+    }
+    .mission-item--desc {
+        line-height: 22px;
+    }
 }
