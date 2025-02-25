@@ -783,3 +783,25 @@ body {
     line-height: 22px;
   }
 }
+.manifest {
+  background: url("../../images/manifest/bg-manifest.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100%;
+}
+
+.manifest-content {
+  padding: 145px 0 105px;
+  text-align: right;
+}
+
+.subtitle {
+  display: block;
+}
+
+.manifest-list {
+  max-width: 600px;
+  list-style: none;
+  color: var(--global-white);
+  background-color: var(--global-black);
+}

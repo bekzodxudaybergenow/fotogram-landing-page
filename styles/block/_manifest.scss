@@ -1,0 +1,36 @@
+.manifest {
+    background: url('../../images/manifest/bg-manifest.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+
+}
+.container {
+}
+.manifest-content {
+    padding: 145px 0 105px;
+    text-align: right;
+}
+.subtitle {
+    display: block;
+}
+.title {
+}
+.manifest-list {
+    max-width: 600px;
+    list-style: none;
+    color: var(--global-white);
+    background-color: var(--global-black);
+}
+.manifest-list--title {
+}
+.manifest-list--item {
+}
+.manifest-item--num {
+}
+.manifest-item--inner {
+}
+.manifest-item--title {
+}
+.manifest-item--desc {
+}
