@@ -815,3 +815,42 @@ body {
   width: 100%;
   background-color: var(--global-black);
 }
+
+.manifest-list--title {
+  max-width: 300px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.manifest-list--item {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  margin-bottom: 40px;
+}
+.manifest-list--item:last-child {
+  margin-bottom: 0;
+}
+
+.manifest-item--num {
+  font-size: 60px;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--global-primary);
+}
+
+.manifest-item--title {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+
+.manifest-item--desc {
+  max-width: 400px;
+  font-size: 14.5px;
+  font-weight: 500;
+  color: var(--global-gray);
+  line-height: 22px;
+}
