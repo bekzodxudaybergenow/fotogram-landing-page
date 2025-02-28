@@ -854,3 +854,18 @@ body {
   color: var(--global-gray);
   line-height: 22px;
 }
+
+@media screen and (max-width: 425px) {
+  .manifest-list--title {
+    text-align: center;
+  }
+  .manifest-list--item {
+    flex-direction: column;
+  }
+  .manifest-item--num {
+    margin-bottom: 15px;
+  }
+  .manifest-item--inner {
+    text-align: center;
+  }
+}
