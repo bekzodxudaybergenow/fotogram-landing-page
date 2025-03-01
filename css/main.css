@@ -869,3 +869,28 @@ body {
     text-align: center;
   }
 }
+.moment-content {
+  margin: 130px 0;
+}
+
+.moment-content--title {
+  font-size: 28px;
+  max-width: 220px;
+}
+
+.moment-content--subtitle {
+  font-size: 14px;
+}
+
+.swiperMoment {
+  background-color: darkkhaki;
+}
+
+.swiper-slide {
+  min-height: 550px;
+  background-color: darkgoldenrod;
+}
+
+.swiper-slide.swiper-slide-active {
+  width: 700px !important;
+}
