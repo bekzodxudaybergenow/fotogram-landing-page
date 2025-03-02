@@ -883,14 +883,14 @@ body {
 }
 
 .swiperMoment {
-  background-color: darkkhaki;
+  background-color: darkcyan;
+  max-width: 3280px;
+  padding: 0 15px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-.swiper-slide {
+.swiperMoment-slide {
   min-height: 550px;
   background-color: darkgoldenrod;
-}
-
-.swiper-slide.swiper-slide-active {
-  width: 700px !important;
 }
