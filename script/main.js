@@ -41,3 +41,7 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+var swiperMoment = new Swiper(".swiperMoment", {
+    slidesPerView: 1.5,
+    loop: true
+  });
