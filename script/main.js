@@ -43,5 +43,9 @@ var swiper = new Swiper(".mySwiper", {
 });
 var swiperMoment = new Swiper(".swiperMoment", {
     slidesPerView: 1.5,
-    loop: true
+    loop: true,
+    spaceBetween: 0,
+    autoplay: {
+        delay: 5000,
+      },
   });
