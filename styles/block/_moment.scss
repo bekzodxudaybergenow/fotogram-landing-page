@@ -1,7 +1,7 @@
 .moment {
 }
 .moment-content {
-    margin: 130px 0;
+    margin: 130px 0 100px;
 }
 .moment-content--title {
     font-size: 28px;
@@ -14,8 +14,56 @@
     max-width: 3280px;
     margin: 0 auto;
     overflow: hidden;
+    background-color: var(--global-black);
 }
 .swiperMoment-slide {
     max-height: 600px;
-    object-fit: cover;
+    width: 100%;
+    position: relative;
+
+    & img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.swiperMoment-slide--content {
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+    color: var(--global-white);
+
+    & .subtitle span{
+        display: inline-block;
+        font-size: 13px;
+        color: var(--global-white);
+        margin-bottom: 5px;
+    }
+    & .title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .moment-content {
+        margin: 110px 0 80px;
+    }
+    .swiperMoment-slide {
+        
+        & img {
+            height: 200px;
+        }
+    }
+    .swiperMoment-slide--content {
+        bottom: 10px;
+        left: 20px;
+    
+        & .subtitle span{
+            font-size: 10px;
+            margin-bottom: 2px;
+        }
+        & .title {
+            font-size: 16px;
+        }
+    }
 }
