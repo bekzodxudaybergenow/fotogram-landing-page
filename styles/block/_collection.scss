@@ -1,21 +1,21 @@
 .collection {
     margin: 140px 0 120px;
 }
-.container {
-}
 .collection-content {
-}
-.subtitle {
-}
-.link {
+    margin-bottom: 40px;
 }
 .collection-subtitle {
+    font-size: 13px;
 }
-.title {
-}
-.mission-title {
+.collection-title {
+    max-width: 300px;
+    font-size: 38px;
 }
 .collection-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
 }
 .collection-list--item {
 }

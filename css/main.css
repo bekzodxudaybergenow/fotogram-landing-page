@@ -938,3 +938,23 @@ body {
 .collection {
   margin: 140px 0 120px;
 }
+
+.collection-content {
+  margin-bottom: 40px;
+}
+
+.collection-subtitle {
+  font-size: 13px;
+}
+
+.collection-title {
+  max-width: 300px;
+  font-size: 38px;
+}
+
+.collection-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+}
