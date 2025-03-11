@@ -342,10 +342,9 @@ body {
 .subtitle {
   display: flex;
   align-items: center;
-  column-gap: 10px;
 }
 .subtitle img {
-  margin-top: -2px;
+  margin-bottom: 3px;
 }
 .subtitle span {
   font-family: var(--second-family);

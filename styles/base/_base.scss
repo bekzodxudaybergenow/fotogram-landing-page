@@ -18,28 +18,28 @@ body {
 .subtitle {
     display: flex;
     align-items: center;
-    column-gap: 10px;
 
     & img {
-        margin-top: -2px;
+        margin-bottom: 3px;
     }
+
     & span {
         font-family: var(--second-family);
         color: var(--global-primary);
     }
 }
-.subtitle.link {
-    & span {
-        cursor: pointer;
-        transition: opacity .3s ease;
-    }
-    & span:hover {
-        opacity: .8;
-    }
-    & span:active {
-        opacity: 1;
-    }
-}
+// .subtitle.link {
+//     & span {
+//         cursor: pointer;
+//         transition: opacity .3s ease;
+//     }
+//     & span:hover {
+//         opacity: .8;
+//     }
+//     & span:active {
+//         opacity: 1;
+//     }
+// }
 .title {
     font-weight: 700;
     font-family: var(--second-family);
