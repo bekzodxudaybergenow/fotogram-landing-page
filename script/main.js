@@ -49,3 +49,10 @@ var swiperMoment = new Swiper(".swiperMoment", {
         delay: 5000,
       },
   });
+
+  var swiper = new Swiper(".testSwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
