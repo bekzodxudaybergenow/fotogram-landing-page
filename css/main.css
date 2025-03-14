@@ -1017,3 +1017,41 @@ body {
     font-size: 30px;
   }
 }
+.testimonial {
+  padding: 150px 0;
+  position: relative;
+  background-color: #f1f1f1;
+}
+
+.testSwiper-slide {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-content {
+  max-width: 730px;
+}
+
+.testimonial-content--desc {
+  font-size: 24px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+.testimonial-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+  color: var(--global-white);
+}
+
+.bg-right {
+  width: 35%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(170deg, #2E2E2E, #000000);
+}
