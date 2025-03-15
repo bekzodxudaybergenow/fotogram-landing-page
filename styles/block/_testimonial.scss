@@ -15,6 +15,7 @@
     display: flex !important;
     justify-content: space-between;
     align-items: center;
+    background-color: darkslateblue;
 }
 .testimonial-content {
     max-width: 730px;
@@ -41,11 +42,39 @@
     background: linear-gradient(170deg,#2E2E2E, #000000);
 }
 .testimonial-info--image {
+    margin-bottom: 35px;
 }
 .testimonial-info--name {
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
 }
 .testimonial-info--profession {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
+.testimonial-info--subtitle {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%) translateX(-10%) rotate(-90deg);
+    transform-origin: center;
+
+}
+.testSwiper-slide-btns {
+    min-height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 80px;
+    background-color: darkorange;
+    opacity: .4;
+    z-index: 100;
+}
+.testSwiper-slide--next {}
+.testSwiper-slide--prev {}
+
 .swiper-button-next {
 }
 .swiper-button-prev {
