@@ -1271,3 +1271,16 @@ body {
     font-size: 13px;
   }
 }
+.footer {
+  background-color: var(--global-black);
+  color: var(--accen2-color);
+}
+
+.footer-content {
+  padding: 190px 0;
+}
+
+.footer-bottom {
+  padding: 60px 0 80px;
+  background-color: var(--accent-color);
+}
